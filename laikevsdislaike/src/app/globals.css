@@ -1,6 +1,9 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root [data-theme="light"] {
+  --foreground: #302c54;
+  --background: #fbfbfe;
+  --primary: #33306e;
+  --secondary: #dddbff;
+  --accent: #424252;
 }
 
 @media (prefers-color-scheme: dark) {
